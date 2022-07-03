@@ -1,0 +1,63 @@
+List<PhoneEmerList> phoneemerInfo = [
+    PhoneEmerList(
+      name: 'แจ้งเหตุเจ้าหน้าที่ตำรวจ',
+      mobile: '191',
+      image: 'f1.jpg',
+      detail: 'ติดต่อแจ้งเหตุเจ้าหน้าที่ตำรวจ',
+    ),
+    PhoneEmerList(
+      name: 'ภัยพิบัติแห่งชาติ',
+      mobile: '192',
+      image: 'f2.jpg',
+      detail: 'ภัยพิบัติแห่งชาติ',
+    ),
+    PhoneEmerList(
+      name: 'แจ้งอัคคีภัย/สัตว์ร้ายบุกรุกบ้าน',
+      mobile: '199',
+      image: 'f3.jpg',
+      detail: 'ศูนย์วิทยุพระราม เพื่อแจ้งอัคคีภัย/สัตว์ร้ายบุกรุกบ้าน',
+    ),
+    PhoneEmerList(
+      name: 'ปอเต๊กตึ๊ง กทม.',
+      mobile: '1418',
+      image: 'f4.jpg',
+      detail: 'มูลนิธิปอเต๊กตึ๊ง กทม.',
+    ),
+    PhoneEmerList(
+      name: 'สายด่วนเหตุร้ายที่เกี่ยวข้องกับนักท่องเที่ยว',
+      mobile: '1155',
+      image: 'f5.jpg',
+      detail: 'ตำรวจท่องเที่ยว (สายด่วนเหตุร้ายที่เกี่ยวข้องกับนักท่องเที่ยว)',
+    ),
+    PhoneEmerList(
+      name: 'ศูนย์ปราบขโมยรถ',
+      mobile: '1192',
+      image: 'f6.jpg',
+      detail: 'ศูนย์ปราบขโมยรถ (สตช.)',
+    ),
+    PhoneEmerList(
+      name: 'ตำรวจทางหลวง',
+      mobile: '1193',
+      image: 'f7.jpg',
+      detail: 'ตำรวจทางหลวง',
+    ),
+    PhoneEmerList(
+      name: 'แจ้งเหตุอาชญากรรม คดีร้ายแรงเป็นภัยต่อประเทศ',
+      mobile: '1195',
+      image: 'f8.jpg',
+      detail: 'กองปราบ (สายด่วนแจ้งเหตุอาชญากรรม คดีร้ายแรงเป็นภัยต่อประเทศ)',
+      lng: '0',
+    ),
+    PhoneEmerList(
+      name: 'หน่วยประสานงานกลางเหตุฉุกเฉินในกรุงเทพฯ',
+      mobile: '1555',
+      image: 'f9.jpg',
+      detail: 'ศูนย์ร้องทุกข์กรุงเทพฯ (หน่วยประสานงานกลางเหตุฉุกเฉินในกรุงเทพฯ)',
+    ),
+    PhoneEmerList(
+      name: 'แจ้งบุคคลสูญหาย',
+      mobile: '1300',
+      image: 'f10.jpg',
+      detail: 'ศูนย์ประชาบดี เพื่อแจ้งบุคคลสูญหาย',
+    ),
+  ];
