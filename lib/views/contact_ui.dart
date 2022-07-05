@@ -188,6 +188,7 @@ class _ContactsUIState extends State<ContactsUI> {
                   value: 6,
                   child: Text(
                     'กำหนดเอง',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
               ];
@@ -254,15 +255,15 @@ class _ContactsUIState extends State<ContactsUI> {
                   ),
                 );
               } else if (value == 6) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        ContactsUI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         ContactsUI(),
+                //   ),
+                // );
               }
             },
           ),

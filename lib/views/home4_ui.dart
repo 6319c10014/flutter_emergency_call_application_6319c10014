@@ -120,6 +120,7 @@ class _Home4UIState extends State<Home4UI> {
                   value: 3,
                   child: Text(
                     'เบอร์โทรหน่วยงานทั่วไป',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 PopupMenuItem<int>(
@@ -174,15 +175,15 @@ class _Home4UIState extends State<Home4UI> {
                   ),
                 );
               } else if (value == 3) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        Home4UI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         Home4UI(),
+                //   ),
+                // );
               } else if (value == 4) {
                 Navigator.push(
                   context,

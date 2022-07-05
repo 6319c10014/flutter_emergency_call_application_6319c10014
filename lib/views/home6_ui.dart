@@ -125,6 +125,7 @@ class _Home6UIState extends State<Home6UI> {
                   value: 5,
                   child: Text(
                     'เบอร์โทรเครือข่ายโทรศัพท์มือถือ',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 PopupMenuItem<int>(
@@ -187,15 +188,15 @@ class _Home6UIState extends State<Home6UI> {
                   ),
                 );
               } else if (value == 5) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        Home6UI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         Home6UI(),
+                //   ),
+                // );
               } else if (value == 6) {
                 Navigator.push(
                   context,

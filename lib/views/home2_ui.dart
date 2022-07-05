@@ -109,6 +109,7 @@ class _Home2UIState extends State<Home2UI> {
                   value: 1,
                   child: Text(
                     'เหตุฉุกเฉินด้านการแพทย์',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 PopupMenuItem<int>(
@@ -155,15 +156,15 @@ class _Home2UIState extends State<Home2UI> {
                   ),
                 );
               } else if (value == 1) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        Home2UI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         Home2UI(),
+                //   ),
+                // );
               } else if (value == 2) {
                 Navigator.push(
                   context,

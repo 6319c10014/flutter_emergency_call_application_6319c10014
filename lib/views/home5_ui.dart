@@ -186,6 +186,7 @@ class _Home5UIState extends State<Home5UI> {
                   value: 4,
                   child: Text(
                     'เบอร์โทรธนาคาร',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 PopupMenuItem<int>(
@@ -244,15 +245,15 @@ class _Home5UIState extends State<Home5UI> {
                   ),
                 );
               } else if (value == 4) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        Home5UI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         Home5UI(),
+                //   ),
+                // );
               } else if (value == 5) {
                 Navigator.push(
                   context,

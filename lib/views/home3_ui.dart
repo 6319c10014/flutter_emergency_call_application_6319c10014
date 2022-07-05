@@ -138,6 +138,7 @@ class _Home3UIState extends State<Home3UI> {
                   value: 2,
                   child: Text(
                     'เหตุฉุกเฉินสำหรับการเดินทางท่องเที่ยว',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 PopupMenuItem<int>(
@@ -188,15 +189,15 @@ class _Home3UIState extends State<Home3UI> {
                   ),
                 );
               } else if (value == 2) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (
-                      context,
-                    ) =>
-                        Home3UI(),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (
+                //       context,
+                //     ) =>
+                //         Home3UI(),
+                //   ),
+                // );
               } else if (value == 3) {
                 Navigator.push(
                   context,
